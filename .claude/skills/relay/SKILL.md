@@ -1,24 +1,22 @@
 ---
 name: relay
-description: summary/ 폴더 최신 파일을 읽어 지정된 이메일 주소로 Gmail 커넥터를 통해 발송한다.
+description: summary/ 폴더 최신 파일을 읽어 Slack 채널로 발송한다.
 ---
 
 ## 설정
 
-- 발신 이메일: jeongillee201@gmail.com
-- 수신 이메일: jeongillee201@gmail.com
+- 발송 채널: #daily-brief (C0B7KDPQY3G)
 
 ## 작업 순서
 
 1. `summary/` 폴더에서 가장 최근에 추가된 `YYYY-MM-DD.md` 파일을 찾아 읽어라.
-2. Gmail 커넥터로 다음 메일을 발송하라:
-   - 받는 사람: 위 "수신 이메일"
-   - 제목: `[일일 브리핑] YYYY-MM-DD`
-   - 본문: summary 파일 내용 전체 (마크다운 형식 유지)
+2. Slack MCP 도구(`slack_send_message`)로 다음 메시지를 발송하라:
+   - 채널: `C0B7KDPQY3G` (#daily-brief)
+   - 메시지: `*[일일 브리핑] YYYY-MM-DD*\n\n` + summary 파일 내용 전체
 3. 발송 성공 응답을 확인한 뒤 종료하라.
 
 ## 금지 사항
 
 - GitHub에 추가 커밋 금지 (relay는 읽기·발송만 담당)
-- 메일 본문 임의 수정·요약·재작성 금지
+- 메시지 본문 임의 수정·요약·재작성 금지
 - summary 파일 수정·삭제 금지
