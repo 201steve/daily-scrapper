@@ -4,3 +4,8 @@
 형식: `- YYYY-MM-DD | (카테고리) | (질문 내용)`
 
 <!-- 아래부터 기록 -->
+- 2026-09-08 | React / 컴포넌트 | useMemo와 useCallback의 차이점은 무엇인가요?
+- 2026-09-08 | React / 컴포넌트 | Context API는 무엇이고 언제 사용하나요?
+- 2026-09-08 | React / 컴포넌트 | React.memo와 shouldComponentUpdate는 어떤 차이가 있으며 각각 언제 사용하나요?
+- 2026-09-08 | React / 컴포넌트 | Redux와 Context API의 차이점은 무엇이며 각각 언제 사용해야 하나요?
+- 2026-09-08 | React / 컴포넌트 | React 컴포넌트의 라이프사이클(마운트 → 업데이트 → 언마운트)을 설명해주세요.
