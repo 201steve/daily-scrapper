@@ -4,3 +4,8 @@
 형식: `- YYYY-MM-DD | (카테고리) | (질문 내용)`
 
 <!-- 아래부터 기록 -->
+- 2026-09-12 | CSS/HTML/접근성 | 웹 접근성이란 무엇인가요?
+- 2026-09-12 | CSS/HTML/접근성 | 시맨틱 태그란 무엇이며 왜 사용하나요?
+- 2026-09-12 | CSS/HTML/접근성 | CSS position 속성(static, relative, fixed, absolute)의 차이를 설명해주세요.
+- 2026-09-12 | CSS/HTML/접근성 | margin과 padding의 차이는 무엇인가요?
+- 2026-09-12 | CSS/HTML/접근성 | CSS Box model에서 width 값이 차지하는 영역은 어떻게 되나요? (box-sizing)
